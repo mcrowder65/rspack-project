@@ -1,13 +1,13 @@
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import One from "./one";
 import Two from "./two";
-const Routes = () => {
+const _Routes = () => {
   return (
-    <Switch>
-      <Route exact path="/one" component={One} />
-      <Route exact path="/two" component={Two} />
-    </Switch>
+    <Routes>
+      <Route path="/one" Component={One} />
+      <Route path="/two" Component={Two} />
+    </Routes>
   );
 };
 
-export default Routes;
+export default _Routes;
