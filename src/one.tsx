@@ -2,10 +2,9 @@ import { Link } from "react-router-dom";
 
 const One = () => {
   return (
-    <div>
-      one
-      <Link to="/two">go to two</Link>
-    </div>
+    <h2>
+      I am one
+    </h2>
   );
 };
 
